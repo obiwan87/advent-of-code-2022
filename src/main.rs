@@ -4,5 +4,5 @@ mod puzzle_02;
 mod puzzle_03;
 
 fn main() {
-    println!("{}", puzzle_03::aoc_puzzle_03_part_1());
+    println!("{}", puzzle_03::aoc_puzzle_03_part_2());
 }
