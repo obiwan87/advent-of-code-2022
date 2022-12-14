@@ -181,7 +181,7 @@ fn collect_size(file_index: &HashMap<String, ItemType>, path: String, sizes: &mu
                 Some(ItemType::File(file)) => {
                     size += file.size
                 }
-                _ => panic!("Expected command cd or ls")
+                _ => panic!("Expected command file or directory, got something else instead.")
             }
         }
         { sizes.push(size); }
